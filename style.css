@@ -37,10 +37,12 @@ a {
 .nav{
     align-self: center;
     padding: 15px;
+    font-weight: 500;
 }
 
 .nav:hover{
     cursor: pointer;
+    text-decoration: underline;
     color: #504739;
 }
 
@@ -105,7 +107,7 @@ a {
     font-weight: 900;
     padding: 8px 12px;
     position: relative;
-    bottom: 500px;
+    bottom: 420px;
     width: 100%;
     text-align: center;
   }
@@ -152,7 +154,7 @@ a {
     color: #140c04;
     text-align: center;
     padding: 25px;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 .box-container{
@@ -221,4 +223,24 @@ footer {
 footer div {
     color: #f2f2f2;
     padding: 25px;
+}
+
+
+.main-container-aaa{
+  max-width: 100vw;
+  height: 50vh;
+  background-color: #ac9c8459;
+  display: flex;
+  overflow: hidden;
+}
+
+
+.text-aaa {
+  color: #f2f2f2;
+  font-size: 36px;
+  font-weight: 900;
+  width: 100%;
+  text-align: center;
+  align-self: center;
+  position: relative;
 }
