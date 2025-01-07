@@ -24,6 +24,11 @@ a {
     margin-right: 20%;
 }
 
+.logo img {
+  margin: 20%;
+  width: 60px;
+}
+
 .logo img:hover{
     cursor: pointer;
 }
@@ -155,8 +160,8 @@ a {
     font-weight: 900;
     color: #140c04;
     text-align: center;
-    padding: 25px;
-    margin-top: 10px;
+    padding-top: 0;
+    padding-bottom: 50px;
 }
 
 .box-container{
