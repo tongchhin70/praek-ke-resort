@@ -55,7 +55,6 @@ a {
     position: relative;
     max-height: 100%;
     padding-top: 0px;
-    padding-bottom: 5%;
     background-color: #ac9c8491;
     bottom: 110px;
     overflow: hidden;
@@ -120,7 +119,6 @@ a {
     position: absolute;
     top: 0;
   }
-  
   /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
@@ -188,9 +186,15 @@ a {
     transition: transform 0.3s ease-in-out;
 }
 
+.box-frame {
+  max-width: 300px;
+  max-height: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
 .image-box22 {
-  width: 300px;
-  height: 400px;
+  max-width: 300px;
   border-radius: 20px;
 }
 
