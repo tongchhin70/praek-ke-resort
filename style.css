@@ -281,3 +281,22 @@ footer div {
   align-self: center;
   position: relative;
 }
+
+.info-contain {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-left: 20px;
+}
+.info-block {
+  display: flex;
+  justify-content: space-evenly;
+}
+.info-block i {
+  width: 50x;
+  height: 50px;
+}
+.info-block p {
+  margin: 0;
+  position: relative;
+}
