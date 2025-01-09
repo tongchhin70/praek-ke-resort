@@ -300,3 +300,25 @@ footer div {
   margin: 0;
   position: relative;
 }
+
+.icon-container {
+
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.icon-block{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.icon-container i {
+  vertical-align: middle;
+  margin-right: 40px; /* Add some space between icon and text if needed */
+}
+
+.text-info{
+  margin: 20px;
+}
