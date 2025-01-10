@@ -324,3 +324,18 @@ footer div {
 .text-info{
   margin: 20px;
 }
+
+.box-container-art{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: relative;
+  left: 30%;
+  max-width: fit-content;
+}
+
+.text23 {
+  text-align: center;
+}
