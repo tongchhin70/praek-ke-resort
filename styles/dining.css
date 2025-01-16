@@ -2,5 +2,24 @@
     margin-top: 50px;
     background-color: rgba(222, 184, 135, 0.459);
     width: auto;
-    height: 600px;
+    height: 800px;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    gap: 20PX;
+}
+
+.frame-box{
+    margin: 30px;
+    width: 600px;
+    height: 700px;
+    align-self: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.picture{
+
 }
